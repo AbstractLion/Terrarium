@@ -1,3 +1,5 @@
+# Note: The commits before TeenHacksHTX started were not from us; they persisted after we ran git clone on the EchoAR starter repo
+
 # Unity-Flutter-echoAR-example
 Starter project to build Android apps using Flutter &amp; Unity with echoAR
 ## Register
