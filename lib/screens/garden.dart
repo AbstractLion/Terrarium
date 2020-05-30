@@ -29,7 +29,7 @@ class _GardenState extends State<Garden> {
         onPressed: () {
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => UnityViewPage()));
-          }, 
+          },
         child: Text('Run Unity'),
       ),
     );

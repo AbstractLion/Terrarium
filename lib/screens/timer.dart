@@ -10,6 +10,7 @@ class Timer extends StatefulWidget {
 }
 
 class _TimerState extends State<Timer> {
+  int timerValue = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +40,9 @@ class _TimerState extends State<Timer> {
               ),
             ),
             onChange: (double value) {
-              print(value);
+              setState(() {
+                timerValue = value.toInt();
+              });
             },
           ),
         ],
