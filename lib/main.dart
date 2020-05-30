@@ -69,8 +69,8 @@ class _UnityViewPageState extends State<UnityViewPage> {
   UnityViewController unityViewController;
 
   double _sliderValue = 1.0;
-  // String _projectKey = '<YOUR-PROJECT-KEY>';
-  // String _entryID = '<YOUR-ENTRY-ID>';
+  String _projectKey = 'withered-bar-7665';
+  String _entryID = '24a29552-3863-4c65-af0a-6718668fb8ec';
 
   @override
   void initState() {
