@@ -1,5 +1,7 @@
+import '../constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_unity/flutter_unity.dart';
+import 'package:getflutter/getflutter.dart';
 import 'package:http/http.dart' as http;
 
 class Garden extends StatefulWidget {
@@ -25,12 +27,16 @@ class _GardenState extends State<Garden> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: RaisedButton(
+      child: GFButton(
+        color: Constants.accentColor,
+        textColor: Constants.textColor,
         onPressed: () {
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => UnityViewPage()));
           },
-        child: Text('Run Unity'),
+        text: "Open Garden",
+        size: GFSize.LARGE,
+        shape: GFButtonShape.pills,
       ),
     );
   }

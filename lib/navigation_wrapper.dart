@@ -16,7 +16,7 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
     return Scaffold(
       backgroundColor: Constants.backgroundColor,
       appBar: AppBar(
-        title: Text("Terrarium"),
+        title: Text(PageData.getPageName(currentPage)),
         backgroundColor: Constants.accentColor,
       ),
       body: PageData.getPage(currentPage),

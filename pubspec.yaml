@@ -33,6 +33,7 @@ dependencies:
   fancy_bottom_navigation: ^0.3.2
   sleek_circular_slider: ^1.1.0
   intl: ^0.16.1
+  getflutter: ^1.0.11
 
 
 dev_dependencies:
